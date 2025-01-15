@@ -392,6 +392,7 @@ span{
 .p2{
     height: 50%;
     width: 40%;
+    font-size: 25px;
     align-items: right;
     border-radius: 40%;
     overflow: hidden;
@@ -400,7 +401,7 @@ span{
 }
 .p2:hover + .pp{
     position: relative;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: #ff0000;
 }
