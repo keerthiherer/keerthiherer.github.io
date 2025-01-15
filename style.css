@@ -377,6 +377,7 @@ span{
     opacity: 1;
 }
 .pp{
+    font-family: 'Georgia Pro Cond Black', sans-serif;
     position: relative;
     font-size: 20px;
     font-weight: bold;
