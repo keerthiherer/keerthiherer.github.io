@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+  window.onload = function () {
+    const isMobile = /iPhone|iPad|iPod|Android|Windows Phone|webOS|BlackBerry/i.test(navigator.userAgent);
+    
+    if (isMobile) {
+      window.location.href = "mobile.html";
+    }
+  };
+</script>
+
   <meta name="google-site-verification" content="BHh3Dy-Zk5gTXoxuX7jFJys_9LxuykWheBG1jW-5-HU" />
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
