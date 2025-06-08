@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 User-agent: Googlebot
 Allow: /
 
@@ -12,3 +13,19 @@ Allow: /
 
 User-agent: *
 Allow: /
+=======
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Allow: /
+>>>>>>> 867cd9ba8a6b3dfa5e4e1a945d117186fbe767a0
