@@ -478,6 +478,14 @@
             overflow: hidden;
         }
         
+        .project-image img {
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+            position: relative;
+            z-index: 1;
+        }
+        
         .project-image::before {
             content: '';
             position: absolute;
@@ -808,6 +816,12 @@
             background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.4), transparent 50%);
             opacity: 0;
             animation: shine 2s ease-in-out infinite;
+        }
+
+        .social-link img {
+            width: 60%;
+            height: 60%;
+            object-fit: contain;
         }
 
         @keyframes shine {
@@ -1850,7 +1864,7 @@
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image">🚀</div>
+                    <div class="project-image"><img src="/assets/icons8-scout-50.png" alt="Scouts"></div>
                     <div class="project-content">
                         <h3>Scouts and Guides</h3>
                         <p>A comprehensive software created for Bharat Scouts and Guides, featuring a GUI interface with resources like images, audio, and videos. Developed as an investigatory project during class 12th.</p>
@@ -1863,7 +1877,7 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image">⚙️</div>
+                    <div class="project-image"><img src="/assets/icons8-sql-100.png" alt="SQL"></div>
                     <div class="project-content">
                         <h3>Scout and guides Data Entry SQL</h3>
                         <p>A Python application for data entry of Scouts and Guides information, integrating with MySQL database and featuring a user-friendly GUI.</p>
@@ -1876,7 +1890,7 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image">🤖</div>
+                    <div class="project-image"><img src="/assets/icons8-ai-94.png" alt="AI"></div>
                     <div class="project-content">
                         <h3>Keerthi AI</h3>
                         <p>A Python-based AI automation program utilizing various packages for functionalities like speech recognition, web browsing, and more.</p>
@@ -1889,7 +1903,7 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image">📱</div>
+                    <div class="project-image"><img src="/assets/icons8-iot-sensor-64.png" alt="IoT"></div>
                     <div class="project-content">
                         <h3>Iot-Enabled-Biowaste-monitor</h3>
                         <p>This project focuses on using BIO DEGRADING PROCESS to degrade BIO waste while simultaneously capturing methane gas, which is utilized in biofuel cells.</p>
@@ -1914,7 +1928,7 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image">📊</div>
+                    <div class="project-image"><img src="/assets/icons8-brute-force-attack-50.png" alt="Brute Force"></div>
                     <div class="project-content">
                         <h3>GMAIL bruteforce</h3>
                         <p>A python script that try to find the password of gmail account using bruteforce method.</p>
@@ -2146,40 +2160,11 @@
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
                 <p style="color: var(--text-secondary); font-size: 16px; margin-bottom: 2rem;">I'm always interested in hearing about new projects, opportunities, and collaborations. Feel free to reach out!</p>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <strong> Email</strong>
-                        <p>Get in touch via email</p>
-                        <div class="contact-item-buttons">
-                            <a href="mailto:keerthibalan401@gmail.com" class="contact-btn">✉️ Send Email</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <strong> LinkedIn</strong>
-                        <p>Connect with me professionally</p>
-                        <div class="contact-item-buttons">
-                            <a href="https://www.linkedin.com/in/keerthibalan-g-646772263/" target="_blank" class="contact-btn"> Visit LinkedIn</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <strong GitHub</strong>
-                        <p>Check out my projects and code</p>
-                        <div class="contact-item-buttons">
-                            <a href="https://github.com/keerthiherer" target="_blank" class="contact-btn"> View GitHub</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <strong>📸 Instagram</strong>
-                        <p>Follow me for updates</p>
-                        <div class="contact-item-buttons">
-                            <a href="https://www.instagram.com/keerthibalan.g/" target="_blank" class="contact-btn"> Follow Me</a>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/keerthibalan-g-646772263/" class="social-link" title="LinkedIn" target="_blank">in</a>
-                    <a href="https://github.com/keerthiherer" class="social-link" title="GitHub" target="_blank">GH</a>
-                    <a href="https://www.instagram.com/keerthibalan.g/" class="social-link" title="Instagram" target="_blank">IG</a>
+                    <a href="https://www.linkedin.com/in/keerthibalan-g-646772263/" class="social-link" title="LinkedIn" target="_blank"><img src="/assets/icons8-linkedin-94.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/keerthiherer" class="social-link" title="GitHub" target="_blank"><img src="/assets/icons8-github-64.png" alt="GitHub"></a>
+                    <a href="https://www.instagram.com/keerthibalan.g/" class="social-link" title="Instagram" target="_blank"><img src="/assets/icons8-instagram-100.png" alt="Instagram"></a>
                     <a href="mailto:keerthibalan401@gmail.com" class="social-link" title="Email">✉</a>
                 </div>
             </div>
